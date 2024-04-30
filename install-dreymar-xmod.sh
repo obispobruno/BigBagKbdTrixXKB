@@ -47,7 +47,7 @@ MyNAME=`basename $0`
 MyPATH=`dirname $0`
 ## @@@ The default X11 dir under Debian/Ubuntu/etc is /usr/share/X11  @@@
 ## @@@ The default X11 dir under some (older) distros is /usr/lib/X11 @@@
-X11DIR='/var/home/${USER}/.config/'; [ -d "${X11DIR}" ] || X11DIR='/var/home/${USER}/.config/'
+X11DIR="/var/home/${USER}/.config/"; [ -d "${X11DIR}" ] || X11DIR="/var/home/${USER}/.config/"
 #~ XVERSION='2-17-1ub1'
 XVERSION=''
 ModDATE=''
